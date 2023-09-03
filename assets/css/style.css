@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    font-weight: 800;
+    transition: all .4s ease-in;
+    -webkit-transition: all .4s ease-in;
+    -moz-transition: all .4s ease-in;
+    -ms-transition: all .4s ease-in;
+    -o-transition: all .4s ease-in;
+    color: #171722;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 900 !important;
+}
+img{
+    width: 100%;
+}
+section{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    z-index: 2;
+    position: relative;
+}
+
+.overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 255,0.6),rgba(0, 187, 255,0.6));
+    z-index: -1;
+}
+
+
+.bg-cover{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.hero-section{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    padding: 14px 22px;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+
+.btn:hover{
+    color: #fff;
+    transform:translateY(-5px);
+    -webkit-transform:translateY(-5px);
+    -moz-transform:translateY(-5px);
+    -ms-transform:translateY(-5px);
+    -o-transform:translateY(-5px);
+}
+
+.btn-main{
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+    background: linear-gradient(to left,#00bbff,#0000ff);
+    border: none;
+    font-weight: 600;
+    color: #fff;
+}
+
+.video-btn{
+    width:60px;
+    height: 60px;
+    background: linear-gradient(to left,#00bbff,#0000ff);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-radius: 100px;
+}
+
+.video-btn i{
+    font-size:32px;
+}
+
+.navbar{
+    box-shadow: 0 12px 20px rgba(0,0,0,0.1);
+}
+
+.navbar-expand-lg .navbar-nav .nav-link.active,
+.navbar-expand-lg .navbar-nav .show>.nav-link{
+    background: -webkit-linear-gradient(#00bbff,#0000ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.section-intro{
+    margin-bottom:40px;
+}
+
+.section-intro .divider{
+    height:4px;
+    width: 70px;
+    background: linear-gradient(to left,#00bbff,#0000ff);
+    margin: 16px auto;
+}
+
+.service .service-img{
+    position: relative;
+}
+
+.service .service-img .icon{
+    width: 90px;
+    height: 90px;
+    background: linear-gradient(to left,#00bbff,#0000ff);
+    color: #fff;
+    border-radius:100px;
+    -webkit-border-radius:100px;
+    -moz-border-radius:100px;
+    -ms-border-radius:100px;
+    -o-border-radius:100px;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    position: absolute;
+    bottom:-45px;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+
+.service .service-img .icon i{
+    font-size: 36px;
+}
+
+.feature i{
+    background: -webkit-linear-gradient(#00bbff,#0000ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 54px;
+}
+
+.review{
+    box-shadow: 0 12px 12px rgba(0,0,0,0.1);
+}
+
+.review .person{
+    display: flex;
+    align-items:center;
+    border-bottom: 1px solid rgba(0,0,0,0.07);
+    padding-bottom: 18px;
+}
+
+.review .person img{
+    width: 75px;
+    height: 75px;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+}
+
+.review .stars{
+    color: orange;
+}
+
+form .form-control{
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    background: transparent;
+    color: #FFF;
+    border-color: rgba(255, 255, 255,0.5);
+}
+
+form input.form-control{
+    height:54px;
+}
+
+form .form-control::placeholder{
+    color: #FFF;
+}
+
+form .form-control:focus{
+    color: #FFF;
+    background: transparent;
+    border-color: #FFF;
+}
+
+footer{
+    background: linear-gradient(to left,#00bbff,#0000ff);
+    color: #FFF;
+}
+
+footer a{
+    color: #FFF;
+}
